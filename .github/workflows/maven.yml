@@ -38,6 +38,6 @@ jobs:
         -Dsonar.organization=lorenzobettini-github
         -Dsonar.host.url=https://sonarcloud.io
         -Dsonar.projectKey=cycle-appointment
-      working-directory: com.example.appointment
+      working-directory:
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
